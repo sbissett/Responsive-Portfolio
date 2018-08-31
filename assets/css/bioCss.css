@@ -1,0 +1,203 @@
+Body 
+{
+    width: 960;
+    background-image:url("assets/images/images/Sparkle");
+    padding:15%;
+
+    
+}
+ 
+
+.topNav
+{
+    left: Opx;
+    top: Opx;
+    background-color: #fff;
+    width: 100;
+    Float: right;
+    width:960;
+}
+
+header 
+{
+    color: teal;
+    Float: left;
+    margin-right: 85%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 960;
+    }
+ 
+
+h1
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 960; 
+      
+        
+    }
+    
+h2 
+{
+    border-bottom-style: solid;
+    border-color: lightgray;
+    color: teal;
+    width: 960;
+   
+}
+
+img 
+ {
+   
+    margin-right: 10px;
+    clear:both;
+   
+}
+
+
+
+.bio
+
+{ 
+    
+    Margin-left: 18%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+    text-align: justify;
+    letter-spacing: 4px;
+    Clear: both;
+    Background-color: lightskyblue;
+    -webkit-background-composite: border;
+    width: 960;
+    float: left;
+    Margin: 10%;
+    padding:10%;
+    
+ }
+
+ .line
+ {
+     Height:2px;
+     background-color: #000000;
+     width: 900px;
+     margin:auto;
+     
+ }
+
+ body {
+     background-color: lightgreen;
+
+ }
+
+ .bodyNav 
+ 
+ {
+     background-color: lightcyan
+
+ }
+
+.bodyForm 
+{
+    background-color: lightcyan;
+    padding: 5%;
+
+} 
+
+/* Large devices (landscape tablets, 980px and up) */
+
+
+@media screen and (min-width:980px) and (max-width:1200px) {
+ 
+body
+
+ { 
+     background-color: lavenderblush;
+     align-self: center;
+     text-align: center;
+    
+    }
+
+
+h1 {
+
+    font-size:large;
+}    
+} 
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media screen and (min-width:641px) and (max-width: 980px) {
+
+ body 
+
+ { 
+     background-color: red;
+     align-self: center;
+     font-size: small
+         
+    }
+
+ .topNav
+ 
+ {
+    float: none;
+
+ }
+
+ h1 
+ 
+ {
+    font-size: medium;
+ }
+}
+
+
+
+ /* Small devices (mobile phones and down) */
+
+@media screen and (min-width: 50px) and (max-width:640px)  {
+
+
+    body 
+
+     { 
+         
+        background-color: peru;
+        align-self: center;
+        font-size: smaller;
+        
+    }
+
+    .topNav
+    
+    {
+        float:none;
+    
+    }
+
+    h1 {
+
+        font-size: smaller;
+    }
+
+    .bio 
+    
+    {
+        font-size: 10px;
+        text-align: left;
+
+    }
+    }
+
+       
+    
+
+
+
+ 
+
+
+
+ 
+
+
+
